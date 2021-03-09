@@ -1,15 +1,18 @@
+#bibs
 import random
 import time
-import requests
-import json
+from configparser import ConfigParser
 from paho.mqtt import client as mqtt_client
-
-broker = '192.168.178.130'
+#cfg
+cfgfile = ConfigParser()
+cfgfile.read("/home/pi/klipper_config/moonraker_mqtt.cfg")
+#var
+broker = (cfgfile.get("Broker", "IP"))    #'192.168.178.130'
 port = 1883
-topic = "/python/mqtt"
-client_id = f'python-mqtt-{random.randint(0, 1000)}'
-username = 'admin'
-password = 'Saturnv.10'
+topic = (cfgfile.get("MQTT-Config", "topic"))
+client_id = (cfgfile.get("MQTT-Config", "client_id"))
+username = (cfgfile.get("Broker", "Username"))
+password = (cfgfile.get("Broker", "Password"))
 
 def connect_mqtt():
     def on_connect(client, userdata, flags, rc):
@@ -29,8 +32,8 @@ def publish(client):
     msg_count = 0
     while True:
         time.sleep(1)
-        msg = f"messages: {msg_count}"      
-        result = client.publish(topic, r.text)
+        msg = f"messages: {msg_count}"
+        result = client.publish(topic, msg)
         # result: [0, 1]
         status = result[0]
         if status == 0:
@@ -39,13 +42,12 @@ def publish(client):
             print(f"Failed to send message to topic {topic}")
         msg_count += 1
 
+
 def run():
     client = connect_mqtt()
     client.loop_start()
     publish(client)
 
+
 if __name__ == '__main__':
     run()
-
-r = requests.get("http://192.168.178.78/printer/info")
-print (r)

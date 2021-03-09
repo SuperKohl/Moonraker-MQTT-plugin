@@ -11,7 +11,9 @@
             python3 get-pip.py
             pip3 install paho-mqtt
             pip3 install requests
+            pip3 install ConfigParser
             #python3 setup_englisch.py
+            touch /home/pi/klipper_config/moonraker_mqtt.cfg
             echo "========= Installing the Subsystem successful ========="
            elif [ "$opt" = "Deutsch" ]; then
             echo "========= Moonraker-MQTT-plugin - Installations Script ==========="
@@ -23,7 +25,9 @@
             python3 get-pip.py
             pip3 install paho-mqtt
             pip3 install requests
+            pip3 install ConfigParser
             #python3 setup_german.py
+            touch /home/pi/klipper_config/moonraker_mqtt.cfg
             echo "========= Installieren des Basissystems Erfolgreich Abgeschlossen ========="
            elif [ "$opt" = "Quit" ]; then
             echo done
