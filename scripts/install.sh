@@ -11,14 +11,14 @@
             python3 get-pip.py
             pip3 install paho-mqtt
             pip3 install requests
-            pip3 install ConfigParser
-            #python3 setup_englisch.py
+            pip3 install ConfigParser            
             touch /home/pi/klipper_config/moonraker_mqtt.cfg
             echo "========= Installing the Subsystem successful ========="
            elif [ "$opt" = "Deutsch" ]; then
             echo "========= Moonraker-MQTT-plugin - Installations Script ==========="
-            echo "========= Installieren des Basissystems ========="
+            echo "========= Installiere MQTT moonraker Plugin ========="
             sudo apt update && sudo apt upgrade
+            echo "========= Installiere curl und pip ========="
             sudo apt install curl
             curl --version
             curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -26,7 +26,6 @@
             pip3 install paho-mqtt
             pip3 install requests
             pip3 install ConfigParser
-            #python3 setup_german.py
             touch /home/pi/klipper_config/moonraker_mqtt.cfg
             echo "========= Installieren des Basissystems Erfolgreich Abgeschlossen ========="
            elif [ "$opt" = "Quit" ]; then
