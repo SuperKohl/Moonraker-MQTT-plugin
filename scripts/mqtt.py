@@ -1,6 +1,8 @@
 #bibs
 import random
 import time
+import requests
+import json
 from configparser import ConfigParser
 from paho.mqtt import client as mqtt_client
 #cfg
@@ -13,7 +15,8 @@ topic = (cfgfile.get("MQTT-Config", "topic"))
 client_id = (cfgfile.get("MQTT-Config", "client_id"))
 username = (cfgfile.get("Broker", "Username"))
 password = (cfgfile.get("Broker", "Password"))
-
+r = requests.post("http://127.0.0.1/printer/info")
+print(r)
 def connect_mqtt():
     def on_connect(client, userdata, flags, rc):
         if rc == 0:
