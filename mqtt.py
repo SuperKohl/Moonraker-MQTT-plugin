@@ -7,7 +7,7 @@ from paho.mqtt import client as mqtt_client
 cfgfile = ConfigParser()
 cfgfile.read("/home/pi/klipper_config/moonraker_mqtt.cfg")
 #var
-broker = (cfgfile.get("Broker", "IP"))    #'192.168.178.130'
+broker = (cfgfile.get("Broker", "IP"))
 port = 1883
 topic = (cfgfile.get("MQTT-Config", "topic"))
 client_id = (cfgfile.get("MQTT-Config", "client_id"))
