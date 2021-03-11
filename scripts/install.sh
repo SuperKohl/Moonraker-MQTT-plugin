@@ -12,7 +12,8 @@
             pip3 install paho-mqtt
             pip3 install requests
             pip3 install ConfigParser            
-            touch /home/pi/klipper_config/moonraker_mqtt.cfg
+            #touch /home/pi/klipper_config/moonraker_mqtt.cfg
+            cp -i /home/pi/moonraker-MQTT-plugin/Scripts/moonraker_mqtt.cfg /home/pi/klipper_config
             echo "========= Installing the Subsystem successful ========="
            elif [ "$opt" = "Deutsch" ]; then
             echo "========= Moonraker-MQTT-plugin - Installations Script ==========="
@@ -26,7 +27,8 @@
             pip3 install paho-mqtt
             pip3 install requests
             pip3 install ConfigParser
-            touch /home/pi/klipper_config/moonraker_mqtt.cfg
+            #touch /home/pi/klipper_config/moonraker_mqtt.cfg
+            cp -i /home/pi/moonraker-MQTT-plugin/Scripts/moonraker_mqtt.cfg /home/pi/klipper_config
             echo "========= Installieren des Basissystems Erfolgreich Abgeschlossen ========="
            elif [ "$opt" = "Quit" ]; then
             echo done
