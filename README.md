@@ -25,23 +25,23 @@
   <summary>Inhaltsverzeichnis</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Über das Projekt</a>
+      <a href="#Über das Projekt">Über das Projekt</a>
       <ul>
-        <li><a href="#built-with">Programmiert mit</a></li>
+        <li><a href="#Programmiert mit">Programmiert mit</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Installieren</a>
+      <a href="#Installieren">Installieren</a>
       <ul>
-        <li><a href="#prerequisites">Voraussetzungen</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Voraussetzungen">Voraussetzungen</a></li>
+        <li><a href="#Installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Nutzung</a></li>
-    <li><a href="#roadmap">Zukünftige Änderungen</a></li>
+    <li><a href="#Nutzung">Nutzung</a></li>
+    <li><a href="#Zukünftige Änderungen">Zukünftige Änderungen</a></li>
     <li><a href="#contributing">Mitwirkende</a></li>
-    <li><a href="#license">Licens</a></li>
-    <li><a href="#contact">Kontakt</a></li>
+    <li><a href="#Mitwirkende">Lizenz</a></li>
+    <li><a href="#Kontakt">Kontakt</a></li>
     <li><a href="#acknowledgements">Danksagungen</a></li>
   </ol>
 </details>
@@ -49,7 +49,7 @@
 
 
 <!-- Über das Projekt -->
-## about-the-project
+## Über das Projekt
 
 Ein Skript / Programm zum Senden/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
 
@@ -61,15 +61,15 @@ Das Plugin wurde Programmiert mit:
 * [Bash]()
 
 <!-- Installieren -->
-## getting-started
+## Installieren
 
-### prerequisites
+### Voraussetzungen
 
 Vorausgesetzt wird eins der Betriebssyteme:
 * [MainsailOS](https://github.com/meteyou/mainsail)
 * [Fluidd](https://github.com/cadriel/fluidd)
 
-### installation
+### Installation
 
 1. Gehe in das Verzeichnis: /home/pi
    ```sh
@@ -102,15 +102,15 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	Konfiguriere nun die moonraker_mqtt.cfg Datei. Siehe dazu das <a href="https://github.com/othneildrew/Best-README-Template"><strong>Wiki</strong></a>
 
 <!-- Nutzung -->
-## usage 
+## Nutzung 
 
 
 <!-- Zukünftige Änderungen -->
-## roadmap
+## Zukünftige Änderungen
 
 
 <!-- Mitwirkende -->
-## Contributing
+## Mitwirkende
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -122,13 +122,13 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- Licens -->
-## License
+<!-- Lizenz -->
+## Lizenz
 
 Unterliegt der GNU General Public License v3.0. Siehe  `LICENSE` Für mehr Informationen.
 
 <!-- Kontakt -->
-## Contact
+## Kontakt
 
 Malte Kollasch -  maltekollasch2003@gmail.com
 
@@ -137,3 +137,4 @@ Projekt Link: [https://github.com/SuperKohl/moonraker-MQTT-plugin](https://githu
 
 
 <!-- Danksagungen -->
+## Danksagungen
