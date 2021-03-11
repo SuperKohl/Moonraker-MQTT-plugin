@@ -78,9 +78,9 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	```sh
    git clone https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
    ```
-3. Führe das Installation-Script aus: bash ./moonraker-MQTT-plugin/scripts/install.sh
+3. Führe das Installation-Script aus: bash ./Moonraker-MQTT-plugin/scripts/install.sh
 	```sh
-   git clone https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
+   bash ./Moonraker-MQTT-plugin/scripts/install.sh
    ```
 4. Füge in der moonraker.conf die Zeile [octoprint_compat] hinzu
 	
