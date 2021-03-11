@@ -55,9 +55,9 @@ Ein Skript / Programm zum Senden/Steuern des Druckers vor, während und nach ein
 ### Programmiert mit
 
 Das Plugin wurde Programmiert mit:
-* [Python3](https://getbootstrap.com)
+* [Python3](https://www.python.org/)
 * [Jsonl](https://www.json.org/)
-* [Bash]()
+* [Bash](https://www.gnu.org/software/bash/)
 
 <!-- Installieren -->
 ## Installieren
@@ -120,3 +120,7 @@ Projekt Link: [https://github.com/SuperKohl/moonraker-MQTT-plugin](https://githu
 
 <!-- Danksagungen -->
 ## Danksagungen
+
+Ich bedanke mich hiermit bei [Arksine](https://github.com/Arksine) für die Moonraker API, 
+[meteyou](https://github.com/meteyou) für das MainsailOS und
+[cadriel](https://github.com/cadriel) für das Fluidd.
