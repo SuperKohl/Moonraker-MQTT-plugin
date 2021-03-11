@@ -31,7 +31,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Einstieg</a>
+      <a href="#getting-started">Installieren</a>
       <ul>
         <li><a href="#prerequisites">Voraussetzungen</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -49,32 +49,27 @@
 
 
 <!-- Über das Projekt -->
-## Über das Projekt
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## about-the-project
 
 Ein Skript / Programm zum Senden/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
 
-### Programmiert mit
+### built-with
 
 Das Plugin wurde Programmiert mit:
 * [Python3](https://getbootstrap.com)
 * [Jsonl](https://www.json.org/)
 * [Bash]()
 
-<!-- Einstieg -->
-## Einstieg
+<!-- Installieren -->
+## getting-started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Voraussetzungen
+### prerequisites
 
 Vorausgesetzt wird eins der Betriebssyteme:
 * [MainsailOS](https://github.com/meteyou/mainsail)
 * [Fluidd](https://github.com/cadriel/fluidd)
 
-### Installation
+### installation
 
 1. Gehe in das Verzeichnis: /home/pi
    ```sh
@@ -107,11 +102,11 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	Konfiguriere nun die moonraker_mqtt.cfg Datei. Siehe dazu das <a href="https://github.com/othneildrew/Best-README-Template"><strong>Wiki</strong></a>
 
 <!-- Nutzung -->
-## Nutzung 
+## usage 
 
 
 <!-- Zukünftige Änderungen -->
-## Zukünftige Änderungen
+## roadmap
 
 
 <!-- Mitwirkende -->
@@ -135,7 +130,7 @@ Unterliegt der GNU General Public License v3.0. Siehe  `LICENSE` Für mehr Infor
 <!-- Kontakt -->
 ## Contact
 
-Malte Kollasch - [@your_twitter](https://twitter.com/your_username) - maltekollasch2003@gmail.com
+Malte Kollasch -  maltekollasch2003@gmail.com
 
 Projekt Link: [https://github.com/SuperKohl/moonraker-MQTT-plugin](https://github.com/SuperKohl/moonraker-MQTT-plugin)
 
