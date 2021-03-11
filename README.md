@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/SuperKohl/moonraker-MQTT-plugin">
-    <img src="https://github.com/SuperKohl/moonraker-MQTT-plugin/blob/master/images/logo.PNG" alt="Logo" width="72" height="53">
+  <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin">
+    <img src="https://github.com/SuperKohl/Moonraker-MQTT-plugin/blob/master/images/logo.PNG" alt="Logo" width="158,5" height="116.6">
   </a>
 
   <h3 align="center">Moonraker-MQTT-plugin</h3>
@@ -13,9 +13,9 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Siehe das Wiki »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/SuperKohl/moonraker-MQTT-plugin/issues">Report Bug</a>
+    <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SuperKohl/moonraker-MQTT-plugin/issues">Request Feature</a>
+    <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues">Request Feature</a>
   </p>
 </p>
 
@@ -53,7 +53,7 @@
 
 Ein Skript / Programm zum Senden/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
 
-### built-with
+### Programmiert mit
 
 Das Plugin wurde Programmiert mit:
 * [Python3](https://getbootstrap.com)
@@ -77,11 +77,11 @@ Vorausgesetzt wird eins der Betriebssyteme:
    ```
 2. Clone das Repository
 	```sh
-   git clone https://github.com/SuperKohl/moonraker-MQTT-plugin.git
+   git clone https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
    ```
 3. Führe das Installation-Script aus: bash ./moonraker-MQTT-plugin/scripts/install.sh
 	```sh
-   git clone https://github.com/SuperKohl/moonraker-MQTT-plugin.git
+   git clone https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
    ```
 4. Füge in der moonraker.conf die Zeile [octoprint_compat] hinzu
 	
