@@ -39,7 +39,6 @@
     </li>
     <li><a href="#Nutzung">Nutzung</a></li>
     <li><a href="#Zukünftige-Änderungen">Zukünftige Änderungen</a></li>
-    <li><a href="#Mitwirkende">Mitwirkende</a></li>
     <li><a href="#Lizenz">Lizenz</a></li>
     <li><a href="#Kontakt">Kontakt</a></li>
     <li><a href="#Danksagungen">Danksagungen</a></li>
@@ -104,23 +103,8 @@ Vorausgesetzt wird eins der Betriebssyteme:
 <!-- Nutzung -->
 ## Nutzung 
 
-
 <!-- Zukünftige Änderungen -->
 ## Zukünftige Änderungen
-
-
-<!-- Mitwirkende -->
-## Mitwirkende
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
 
 <!-- Lizenz -->
 ## Lizenz
@@ -133,8 +117,6 @@ Unterliegt der GNU General Public License v3.0. Siehe  `LICENSE` Für mehr Infor
 Malte Kollasch -  maltekollasch2003@gmail.com
 
 Projekt Link: [https://github.com/SuperKohl/moonraker-MQTT-plugin](https://github.com/SuperKohl/moonraker-MQTT-plugin)
-
-
 
 <!-- Danksagungen -->
 ## Danksagungen
