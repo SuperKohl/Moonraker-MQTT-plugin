@@ -23,7 +23,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/SuperKohl/moonraker-MQTT-plugin">
-    <img src="https://github.com/SuperKohl/moonraker-MQTT-plugin/blob/master/images/logo.PNG" alt="Logo" width="80" height="80">
+    <img src="https://github.com/SuperKohl/moonraker-MQTT-plugin/blob/master/images/logo.PNG" alt="Logo" width="72" height="53">
   </a>
 
   <h3 align="center">Moonraker-MQTT-plugin</h3>
