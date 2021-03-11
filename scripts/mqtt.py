@@ -63,5 +63,4 @@ while True:
     #file_operations_mqtt = file_operations.json()
     #client.publish(topic + "/file_operations/files", (file_operations_mqtt ["result"] ["filename"]))
 
-
 #/print_status/
