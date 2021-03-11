@@ -40,7 +40,7 @@
     <li><a href="#Nutzung">Nutzung</a></li>
     <li><a href="#Zukünftige-Änderungen">Zukünftige Änderungen</a></li>
     <li><a href="#Mitwirkende">Mitwirkende</a></li>
-    <li><a href="#Lizens">Lizenz</a></li>
+    <li><a href="#Lizenz">Lizenz</a></li>
     <li><a href="#Kontakt">Kontakt</a></li>
     <li><a href="#Danksagungen">Danksagungen</a></li>
   </ol>
