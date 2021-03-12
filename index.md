@@ -5,7 +5,7 @@
   <summary>Inhaltsverzeichnis</summary>
   <ol>
     <li>
-      <a href="#Über-das-Projekt">Über das Projekt</a>
+      <a href="#Markdown">Über das Projekt</a>
       <ul>
         <li><a href="#Programmiert-mit">Programmiert mit</a></li>
       </ul>
