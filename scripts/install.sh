@@ -38,5 +38,3 @@
             exit
            fi
        done
-
-       #loool
