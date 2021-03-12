@@ -1,9 +1,29 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/SuperKohl/Moonraker-MQTT-plugin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+<!-- Inhaltsverzeichnis -->
+<details open="open">
+  <summary>Inhaltsverzeichnis</summary>
+  <ol>
+    <li>
+      <a href="#Über-das-Projekt">Über das Projekt</a>
+      <ul>
+        <li><a href="#Programmiert-mit">Programmiert mit</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Installieren">Installieren</a>
+      <ul>
+        <li><a href="#Voraussetzungen">Voraussetzungen</a></li>
+        <li><a href="#Installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Nutzung">Nutzung</a></li>
+    <li><a href="#Zukünftige-Änderungen">Zukünftige Änderungen</a></li>
+    <li><a href="#Lizenz">Lizenz</a></li>
+    <li><a href="#Kontakt">Kontakt</a></li>
+    <li><a href="#Danksagungen">Danksagungen</a></li>
+  </ol>
+</details>
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
