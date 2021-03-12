@@ -33,7 +33,7 @@ client.loop_start()
 
 while True:
     time.sleep(int(refresh_time))
-    ##########Get Status##########
+    ####Get Status#####
     octoprint_api = requests.get(url="http://127.0.0.1/api/printer")
     octoprint_api_mqtt = octoprint_api.json()
     host_information = requests.get(url="http://127.0.0.1/printer/info")
