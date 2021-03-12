@@ -50,7 +50,7 @@
 <!-- Über das Projekt -->
 ## Über das Projekt
 
-Ein Skript/Programm zum Senden/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
+Ein Skript/Programm zum Überwachen/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
 
 ### Programmiert mit
 
