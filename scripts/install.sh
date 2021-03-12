@@ -38,7 +38,3 @@
             exit
            fi
        done
-
-
-
-#description
