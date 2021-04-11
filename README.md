@@ -10,7 +10,7 @@
   <p align="center">
     Ein MQTT Plugin für die moonraker API
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Siehe das Wiki »</strong></a>
+    <a href=""><strong>Siehe das Wiki »</strong></a>
     <br />
     <br />
     <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues">Report Bug</a>
@@ -83,6 +83,13 @@ Vorausgesetzt wird eins der Betriebssyteme:
    bash ./Moonraker-MQTT-plugin/scripts/install.sh
    ```
 4. Füge in der moonraker.conf die Zeile [octoprint_compat] hinzu
+5. Füge in der moonraker.conf die Zeilen hinzu
+	```sh
+   [update_manager client Moonraker-MQTT-plugin]
+   type: git_repo
+   path: /home/pi/Moonraker-MQTT-plugin
+   origin: https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
+   ```
 	
 	In MainsailOS:
 	1. Gehe zu Mainsail -> Settings -> Maschine
@@ -91,15 +98,22 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	4. Klicke oben Rechts auf Save
 
 	In Fluidd:
-	1. Gehe zu  Mainsail -> Printer -> config
+	1. Gehe zu Printer -> config
 	2. Klicke auf die Datei moonraker.conf
 	3. Füge am Ende die zeile [octoprint_compat] hinzu
 	4. Klicke oben Rechts auf Save
 
-5. Konfigurieren der moonraker_mqtt.cfg Datei
-
-	Konfiguriere nun die moonraker_mqtt.cfg Datei. Siehe dazu das <a href="https://github.com/othneildrew/Best-README-Template"><strong>Wiki</strong></a>
-
+6. Konfiguriere nun die moonraker_mqtt.cfg Datei mit den Daten von deinem Mqtt Broker.
+7. Damit das Plugin jedes mal Automatisch gestartet wird, konfiguriere die /etc/rc.local Datei
+```sh
+   sudo nano /etc/rc.local
+   ```
+  vor dem exit 0 füge folgende Zeile ein
+```sh
+   python3 /home/pi/Moonraker-MQTT-plugin/scripts/mqtt.py
+   ```
+   Dann mit Strg+o Enter speichern und mit Strg+x verlassen.
+   
 <!-- Nutzung -->
 ## Nutzung 
 
