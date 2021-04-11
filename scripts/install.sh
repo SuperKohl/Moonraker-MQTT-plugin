@@ -4,8 +4,9 @@
            if [ "$opt" = "Englisch" ]; then
             echo "========= moonraker-mqtt-plugin - Installation Script ==========="
             echo "========= Install the Subsystem ========="
-            sudo apt update && sudo apt upgrade
-            sudo apt install curl
+            sudo -s
+            apt update && sudo apt upgrade
+            apt install curl
             curl --version
             curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
             python3 get-pip.py
@@ -17,10 +18,11 @@
             exit
            elif [ "$opt" = "Deutsch" ]; then
             echo "========= Moonraker-MQTT-plugin - Installations Script ==========="
+            sudo -s
             echo "========= Installiere MQTT moonraker Plugin ========="
-            sudo apt update && sudo apt upgrade
+            apt update && sudo apt upgrade
             echo "========= Installiere curl und pip ========="
-            sudo apt install curl
+            apt install curl
             curl --version
             curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
             python3 get-pip.py
