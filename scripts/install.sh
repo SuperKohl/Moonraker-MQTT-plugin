@@ -4,16 +4,19 @@
            if [ "$opt" = "Englisch" ]; then
             echo "========= moonraker-mqtt-plugin - Installation Script ==========="
             echo "========= Install the Subsystem ========="
-            sudo apt update && sudo apt upgrade
+            sudo apt update && sudo apt upgrade -y
+            echo "========= Install Curl ========="
             sudo apt install curl
             curl --version
+            echo "========= Install pip ========="
             sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
             sudo python3 get-pip.py
             sudo pip3 install paho-mqtt
             sudo pip3 install requests
-            sudo pip3 install ConfigParser           
-            #cp -i /home/pi/moonraker-MQTT-plugin/scripts/Moonraker_mqtt.cfg /home/pi/klipper_config
-            echo "========= Installing the Subsystem successful ========="
+            sudo pip3 install ConfigParser
+            echo "========= Copy the files ========="           
+            cp -i /home/pi/moonraker-MQTT-plugin/scripts/Moonraker_mqtt.cfg /home/pi/klipper_config
+            echo "========= Installing successful ========="
             exit
            elif [ "$opt" = "Deutsch" ]; then
             echo "========= Moonraker-MQTT-plugin - Installations Script ==========="
