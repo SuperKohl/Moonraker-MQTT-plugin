@@ -119,7 +119,7 @@ Vorausgesetzt wird eins der Betriebssyteme:
 Sie können nun die Werte vom Drucker in ihrer Smart Home Insterllation nutzen. 
 <!-- Zukünftige Änderungen -->
 ## Zukünftige Änderungen
-Ihr könnt mir Vorschläge per Email Schicken. [Email](https://github.com/SuperKohl/Moonraker-MQTT-plugin#Kontakt)
+Ihr könnt mir Vorschläge per Email Schicken. [Email](mailto:maltekollasch2003@gmail.com)
 <!-- Lizenz -->
 ## Lizenz
 
