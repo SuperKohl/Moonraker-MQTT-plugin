@@ -56,7 +56,7 @@ Ein Skript/Programm zum Überwachen/Steuern des Druckers vor, während und nach 
 
 Das Plugin wurde Programmiert mit:
 * [Python3](https://www.python.org/)
-* [Jsonl](https://www.json.org/)
+* [Json](https://www.json.org/)
 * [Bash](https://www.gnu.org/software/bash/)
 
 <!-- Installieren -->
