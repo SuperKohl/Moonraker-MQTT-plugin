@@ -19,9 +19,10 @@
             echo "========= Installing successful ========="
             exit
            elif [ "$opt" = "Deutsch" ]; then
+            echo "========= In Arbeit ========="
+            exit
            elif [ "$opt" = "Quit" ]; then
             echo done
-            echo "========= In Arbeit ========="
             exit
            else
             echo bad option
