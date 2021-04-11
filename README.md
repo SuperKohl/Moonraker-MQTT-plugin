@@ -113,10 +113,10 @@ Vorausgesetzt wird eins der Betriebssyteme:
    python3 /home/pi/Moonraker-MQTT-plugin/scripts/mqtt.py
    ```
    Dann mit Strg+o Enter speichern und mit Strg+x verlassen.
-   
+
 <!-- Nutzung -->
 ## Nutzung 
-
+Sie können nun die Werte vom Drucker in ihrer Smart Home Insterllation nutzen. 
 <!-- Zukünftige Änderungen -->
 ## Zukünftige Änderungen
 
