@@ -21,6 +21,7 @@
            elif [ "$opt" = "Deutsch" ]; then
            elif [ "$opt" = "Quit" ]; then
             echo done
+            echo "========= In Arbeit ========="
             exit
            else
             echo bad option
