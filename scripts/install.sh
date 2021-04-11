@@ -2,7 +2,7 @@
        OPTIONS="Englisch Deutsch Quit"
        select opt in $OPTIONS; do
            if [ "$opt" = "Englisch" ]; then
-            echo "========= moonraker-mqtt-plugin - Installation Script ==========="
+            echo "========= Moonraker-MQTT-plugin - Installation Script ==========="
             echo "========= Install the Subsystem ========="
             sudo apt update && sudo apt upgrade -y
             echo "========= Install Curl ========="
@@ -15,7 +15,7 @@
             sudo pip3 install requests
             sudo pip3 install ConfigParser
             echo "========= Copy the files ========="           
-            cp -i /home/pi/moonraker-MQTT-plugin/scripts/Moonraker_mqtt.cfg /home/pi/klipper_config
+            cp -i /home/pi/Moonraker-MQTT-plugin/scripts/Moonraker_mqtt.cfg /home/pi/klipper_config
             echo "========= Installing successful ========="
             exit
            elif [ "$opt" = "Deutsch" ]; then
@@ -31,7 +31,7 @@
             pip3 install paho-mqtt
             pip3 install requests
             pip3 install ConfigParser
-            cp -i /home/pi/moonraker-MQTT-plugin/scripts/Moonraker_mqtt.cfg /home/pi/klipper_config
+            cp -i /home/pi/Moonraker-MQTT-plugin/scripts/Moonraker_mqtt.cfg /home/pi/klipper_config
             echo "========= Installieren des Basissystems Erfolgreich Abgeschlossen ========="
             exit
            elif [ "$opt" = "Quit" ]; then
