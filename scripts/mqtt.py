@@ -29,7 +29,7 @@ client.connect(broker)
 client.publish(topic + "/status", "")
 client.publish(topic + "/control/run_gcode", "")
 client.subscribe(topic + "/control/run_gcode")
-client.loop_start())
+client.loop_start()
 time.sleep(30)
 
 while True:
