@@ -82,25 +82,28 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	```sh
    bash ./Moonraker-MQTT-plugin/scripts/install.sh
    ```
-4. Füge in der moonraker.conf die Zeile [octoprint_compat] hinzu
-5. Füge in der moonraker.conf die Zeilen hinzu
+5. Füge in der moonraker.conf die Zeilen hinzu:
 	```sh
+   [octoprint_compat]
+
+   [update_manager]
+
    [update_manager client Moonraker-MQTT-plugin]
    type: git_repo
    path: /home/pi/Moonraker-MQTT-plugin
    origin: https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
    ```
-	
+   
 	In MainsailOS:
 	1. Gehe zu Mainsail -> Settings -> Maschine
 	2. Klicke auf die Datei moonraker.conf
-	3. Füge am Ende die zeile [octoprint_compat] hinzu	
+	3. Füge die zeilen hinzu	
 	4. Klicke oben Rechts auf Save
 
 	In Fluidd:
 	1. Gehe zu Printer -> config
 	2. Klicke auf die Datei moonraker.conf
-	3. Füge am Ende die zeile [octoprint_compat] hinzu
+	3. Füge die zeilen hinzu
 	4. Klicke oben Rechts auf Save
 
 6. Konfiguriere nun die moonraker_mqtt.cfg Datei mit den Daten von deinem Mqtt Broker.
