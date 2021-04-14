@@ -15,7 +15,7 @@
     <br />
     <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues">Request Feature</a>
+    <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues/1">Request Feature</a>
   </p>
 </p>
 
