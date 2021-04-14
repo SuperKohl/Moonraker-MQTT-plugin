@@ -4,9 +4,7 @@
   <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin">
     <img src="https://github.com/SuperKohl/Moonraker-MQTT-plugin/blob/master/images/logo.PNG" alt="Logo" width="158,5" height="116.6">
   </a>
-
   <h3 align="center">Moonraker-MQTT-plugin</h3>
-
   <p align="center">
     Ein MQTT Plugin für die moonraker API
     <br />
@@ -18,8 +16,6 @@
     <a href="https://github.com/SuperKohl/Moonraker-MQTT-plugin/issues">Request Feature</a>
   </p>
 </p>
-
-
 <!-- Inhaltsverzeichnis -->
 <details open="open">
   <summary>Inhaltsverzeichnis</summary>
@@ -44,32 +40,21 @@
     <li><a href="#Danksagungen">Danksagungen</a></li>
   </ol>
 </details>
-
-
-
 <!-- Über das Projekt -->
 ## Über das Projekt
-
 Ein Skript/Programm zum Überwachen/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
-
 ### Programmiert mit
-
 Das Plugin wurde Programmiert mit:
 * [Python3](https://www.python.org/)
 * [Json](https://www.json.org/)
 * [Bash](https://www.gnu.org/software/bash/)
-
 <!-- Installieren -->
 ## Installieren
-
 ### Voraussetzungen
-
 Vorausgesetzt wird eins der Betriebssyteme:
 * [MainsailOS](https://github.com/meteyou/mainsail)
 * [Fluidd](https://github.com/cadriel/fluidd)
-
 ### Installation
-
 1. Gehe in das Verzeichnis: /home/pi
    ```sh
    cd /home/pi
@@ -93,7 +78,6 @@ Vorausgesetzt wird eins der Betriebssyteme:
    path: /home/pi/Moonraker-MQTT-plugin
    origin: https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
    ```
-   
 	In MainsailOS:
 	1. Gehe zu Mainsail -> Settings -> Maschine
 	2. Klicke auf die Datei moonraker.conf
@@ -105,7 +89,6 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	2. Klicke auf die Datei moonraker.conf
 	3. Füge die zeilen hinzu
 	4. Klicke oben Rechts auf Save
-
 6. Konfiguriere nun die moonraker_mqtt.cfg Datei mit den Daten von deinem Mqtt Broker.
 7. Damit das Plugin jedes mal Automatisch gestartet wird, konfiguriere die /etc/rc.local Datei
 ```sh
@@ -116,28 +99,22 @@ Vorausgesetzt wird eins der Betriebssyteme:
    python3 /home/pi/Moonraker-MQTT-plugin/scripts/mqtt.py
    ```
    Dann mit Strg+o Enter speichern und mit Strg+x verlassen.
-
 <!-- Nutzung -->
-## Nutzung 
+## Nutzung
+Das Plugin Startet beim Start Automatisch.
 Sie können nun die Werte vom Drucker in ihrer Smart Home Insterllation nutzen. 
 <!-- Zukünftige Änderungen -->
 ## Zukünftige Änderungen
-Ihr könnt mir Vorschläge per Email Schicken. [Email](mailto:maltekollasch2003@gmail.com)
+Ihr könnt mir Vorschläge per Email Schicken oder im Tab Issures Vorschläge hinterlassen. [Email](mailto:maltekollasch2003@gmail.com)
 <!-- Lizenz -->
 ## Lizenz
-
 Unterliegt der GNU General Public License v3.0. Siehe  `LICENSE` Für mehr Informationen.
-
 <!-- Kontakt -->
 ## Kontakt
-
 Malte Kollasch -  maltekollasch2003@gmail.com
-
 Projekt Link: [https://github.com/SuperKohl/moonraker-MQTT-plugin](https://github.com/SuperKohl/moonraker-MQTT-plugin)
-
 <!-- Danksagungen -->
 ## Danksagungen
-
 Ich bedanke mich hiermit bei [Arksine](https://github.com/Arksine) für die Moonraker API, 
 [meteyou](https://github.com/meteyou) für das MainsailOS und
 [cadriel](https://github.com/cadriel) für das Fluidd.
