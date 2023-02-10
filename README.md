@@ -70,9 +70,9 @@ Vorausgesetzt wird eins der Betriebssyteme:
 
 ### Installation
 
-1. Gehe in das Verzeichnis: /home/pi
+1. Gehe in das Home Verzeichnis:
    ```sh
-   cd /home/pi
+   cd ~
    ```
 2. Clone das Repository
 	```sh
@@ -90,7 +90,7 @@ Vorausgesetzt wird eins der Betriebssyteme:
 
    [update_manager client Moonraker-MQTT-plugin]
    type: git_repo
-   path: /home/pi/Moonraker-MQTT-plugin
+   path: ~/Moonraker-MQTT-plugin
    origin: https://github.com/SuperKohl/Moonraker-MQTT-plugin.git
    ```
 
@@ -107,13 +107,13 @@ Vorausgesetzt wird eins der Betriebssyteme:
 	4. Klicke oben Rechts auf Save
 
 6. Konfiguriere nun die moonraker_mqtt.cfg Datei mit den Daten von deinem Mqtt Broker.
-7. Damit das Plugin jedes mal Automatisch gestartet wird, konfiguriere die /etc/rc.local Datei
+7. Damit das Plugin jedes mal Automatisch gestartet wird, konfiguriere die /etc/crontab Datei
 ```sh
-   sudo nano /etc/rc.local
+   sudo nano /etc/crontab
    ```
-  vor dem exit 0 füge folgende Zeile ein
+  füge folgende Zeile ab ende ein
 ```sh
-   python3 /home/pi/Moonraker-MQTT-plugin/scripts/mqtt.py
+   python3 ~/Moonraker-MQTT-plugin/scripts/mqtt.py
    ```
    Dann mit Strg+o Enter speichern und mit Strg+x verlassen.
 
