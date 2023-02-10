@@ -7,7 +7,7 @@ from configparser import ConfigParser
 import paho.mqtt.client as paho
 #cfg
 cfgfile = ConfigParser()
-cfgfile.read("/home/pi/klipper_config/moonraker_mqtt.cfg")
+cfgfile.read("~/klipper_config/moonraker_mqtt.cfg")
 #var
 broker = (cfgfile.get("Broker", "IP"))
 topic = (cfgfile.get("MQTT-Config", "topic"))

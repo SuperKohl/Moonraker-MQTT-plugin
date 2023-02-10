@@ -37,6 +37,7 @@
         <li><a href="#Installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#Deinstallieren">Deinstallieren</a></li>
     <li><a href="#Nutzung">Nutzung</a></li>
     <li><a href="#Zukünftige-Änderungen">Zukünftige Änderungen</a></li>
     <li><a href="#Lizenz">Lizenz</a></li>
@@ -50,7 +51,7 @@
 <!-- Über das Projekt -->
 ## Über das Projekt
 
-Ein Skript/Programm zum Überwachen/Steuern des Druckers vor, während und nach einem Druck über das MQTT Protokoll.
+Ein Skript/Programm zum Überwachen/Steuern des Druckers über MQTT.
 
 ### Programmiert mit
 
@@ -64,7 +65,7 @@ Das Plugin wurde Programmiert mit:
 
 ### Voraussetzungen
 
-Vorausgesetzt wird eins der Betriebssyteme:
+Vorausgesetzt wird eines der Installationen:
 * [MainsailOS](https://github.com/meteyou/mainsail)
 * [Fluidd](https://github.com/cadriel/fluidd)
 
@@ -109,18 +110,21 @@ Vorausgesetzt wird eins der Betriebssyteme:
 6. Konfiguriere nun die moonraker_mqtt.cfg Datei mit den Daten von deinem Mqtt Broker.
 7. Damit das Plugin jedes mal Automatisch gestartet wird, konfiguriere die /etc/crontab Datei
 ```sh
-   sudo nano /etc/crontab
+   crontab -e
    ```
   füge folgende Zeile ab ende ein
 ```sh
-   python3 ~/Moonraker-MQTT-plugin/scripts/mqtt.py
+   @reboot ~/Moonraker-MQTT-plugin/scripts/mqtt.py
    ```
    Dann mit Strg+o Enter speichern und mit Strg+x verlassen.
 
+<!-- Deinstallieren -->
+## Deinstallieren
+Zum Deinstallieren
 <!-- Nutzung -->
 ## Nutzung
 Das Plugin Startet beim Start Automatisch.
-Sie können nun die Werte vom Drucker in ihrer Smart Home Insterllation nutzen. 
+Sie können nun die Werte vom Drucker in ihrer Smart Home Installation nutzen. 
 <!-- Zukünftige Änderungen -->
 ## Zukünftige Änderungen
 Ihr könnt mir Vorschläge per Email Schicken oder im Tab Issures Vorschläge hinterlassen. [Email](mailto:maltekollasch2003@gmail.com)
